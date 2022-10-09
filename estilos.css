@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background: #9458e1;
+    height: 80px;    
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1;
+    /*background: plum;*/
+}
+
+.contenedor-menu{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo h1{
+    font-size: 40px;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 36px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.contenedor-cover{
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.cover{
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid yellow;
+    
+}
+
+.contenedor-cover .texto{
+    max-width: 700px;
+    margin-top: 10px;
+    margin-left: 50px;
+    /*border: 1px solid blue;*/
+}
+
+.contenedor-cover .texto p{
+   font-size: 22px;
+   margin: auto;
+   color: rgb(64, 60, 60);
+   letter-spacing: 1px;
+   font-family: sans-serif;
+}
+
+.contenedor-cover .texto input{
+    padding: 12px 30px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Roboto Serif', serif;
+    border-radius: 50px;
+    margin: 40px 100px;
+    background: linear-gradient(to left, #f58db6, #FF577F);
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 30px -12px #f4063e;
+    transition: all 300ms;
+    
+}
+
+.contenedor-cover .texto input:hover{
+    box-shadow: 1px 1px 30px -6px #f4063e;
+}
+
+.contenedor-cover .contenedor-img img{
+    width: 750px;
+}
