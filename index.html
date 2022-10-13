@@ -97,22 +97,23 @@
 
         </section>
        <!----------------------------------------FORMULARIO DE CONTACTO-------------------------->
-        <section>
-            <div class="form-body">
-                    <div class="cont-img-texto-form">
-                        <img src="correo.svg" alt="imagen de email">
-                        <h2>Contacto</h2>
-                    </div>
-                    <div>
-                        <form>                
-                            <input type="text" name="nombre" placeholder="Nombre">
-                            <input type="text" name="apellido" placeholder="Apellido">
-                            <input type="email" name="correo" placeholder="Correo">
-                            <input type="tel" name="telefono" placeholder="Teléfono">
-                            <textarea name="mensaje" placeholder="Escriba acá su mensaje"></textarea>
-                            <button>Enviar</button>
-                        </form>
-                   </div>
+        <section class="seccion-form">
+            <h2>Contacto</h2>
+            <div class="cont-form-total">
+                <div class="img-form">
+                    <img src="correo.svg" alt="imagen de email">
+                </div>
+                <div class="cont-form-inputs">
+                   
+                    <form class="main-form">                
+                             <input type="text" name="nombre" placeholder="Nombre" class="main-input">
+                             <input type="text" name="apellido" placeholder="Apellido" class="main-input">
+                             <input type="email" name="correo" placeholder="Correo" class="main-input">
+                             <input type="tel" name="telefono" placeholder="Teléfono" class="main-input">
+                             <textarea name="mensaje" placeholder="Escriba acá su mensaje" class="main-input"></textarea>
+                             <input type="submit" value="Enviar" class="main-input main-send">
+                    </form>
+                </div>
             </div>
         </section>
 
