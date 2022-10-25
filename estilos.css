@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 /*Lo del body es para que el footer me quede posicionado en la parte inferior*/
@@ -21,7 +22,7 @@ body{
 
 .social-body{
     position: fixed;
-    top: 120px;
+    top: 7.5em;
     left: 0px;
     z-index: 100;
     /*border: 1px solid red;*/
@@ -33,7 +34,7 @@ body{
 .social-body ul li a{
     display: inline-block;
     padding: 2px 10px;
-    font-size: 33px;
+    font-size: 2.0625em;
    
 }
 
@@ -45,7 +46,7 @@ body{
 
 .social-body ul li a .fa-square-facebook:hover{
     color: #1d2b48;
-    font-size: 39px;
+    font-size: 2.4375em;
     transition: all ease 9ms;
 }
 
@@ -56,7 +57,7 @@ body{
 
 .social-body ul li .fa-square-instagram:hover{
     color: #77172d;
-    font-size: 39px;
+    font-size: 2.4375em;
     transition: all ease 9ms;
 }
 
@@ -68,20 +69,20 @@ body{
 
 .social-body ul li .fa-linkedin:hover{
     color: #08354a;
-    font-size: 39px;
+    font-size: 2.4375em;
     transition: all ease 9ms;
 }
 
 
 .social-body ul li .fa-envelope{
-  font-size: 28px;
+  font-size: 1.75rem;
   background: #fff;
   color:#c02e1d;
 }
 
 .social-body ul li .fa-envelope:hover{
     color: #791a0f;
-    font-size: 34px;
+    font-size: 2.125em;
     transition: all ease 9ms;
 }
 
@@ -91,14 +92,15 @@ body{
 
 header{
     width: 100%;
+    max-width: 75em;
     background-image: linear-gradient(#2c124f, #9458e1);
     /*background: #9458e1;*/
-    height: 80px;    
+    height: 5em;    
     
 }
 
 .contenedor-menu{
-    max-width: 1200px;
+    max-width: 75em;
     height: 100%;
     margin: auto;
     display: flex;
@@ -112,13 +114,13 @@ header{
 }
 
 .logo img{
-    width: 60px;
+    width: 3.75em;
 }
 
 .logo h1{
-    font-size: 35px;
+    font-size: 2.1875em;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     font-family: 'Nothing You Could Do', cursive;
     letter-spacing: 3px;
     font-weight: bolder;
@@ -135,11 +137,11 @@ header{
 
 .menu ul li{
     list-style: none;
-    margin-left: 40px;
+    margin-left: 2.5em;
 }
 
 .menu ul li a{
-    font-size: 18px;
+    font-size: 1.125em;
     color: #fff;
     letter-spacing: 0.8px;
     padding: 10px;
@@ -155,7 +157,7 @@ header{
 
 /*---------------------------------------------------PORTADA--------------------------------*/
 .contenedor-cover{
-    max-width: 1200px;
+    max-width: 75em;
     margin: auto;
     height: 100vh;
    /* border: 1px solid red;*/
@@ -163,7 +165,7 @@ header{
 }
 
 .cover{
-    max-width: 1200px;
+    max-width: 75em;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -174,14 +176,14 @@ header{
 }
 
 .contenedor-cover .texto{
-    max-width: 700px;
+    max-width: 43.75em;
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 4.375em;
     /*border: 1px solid blue;*/
 }
 
 .contenedor-cover .texto p{
-   font-size: 28px;
+   font-size: 1.75em;
    margin: auto;
    color: rgb(39, 37, 37);
    letter-spacing: 1.5px;
@@ -192,16 +194,16 @@ header{
 }
 
 .contenedor-cover .texto input{
-    padding: 12px 30px;
+    padding: 12px 1.875em;
     border: none;
     font-size: 18px;
-    border-radius: 50px;
-    margin: 40px 100px;
+    border-radius: 3.125em;
+    margin: 2.5em 6.25em;
     background: linear-gradient(to left, #f58db6, #FF577F);
     color: #fff;
     cursor: pointer;
     letter-spacing: 2px;
-    box-shadow: 1px 1px 30px -12px #f4063e;
+    box-shadow: 1px 1px 1.875em -12px #f4063e;
     transition: all 300ms ease;
     
 }
@@ -211,13 +213,13 @@ header{
 }
 
 .contenedor-cover .contenedor-img img{
-    width: 750px;
+    max-width: 46.875em;
 }
 
 /*-------------------SECCIÓN CARDS-----------------------------------------------------------*/
 .prestaciones-cards{
     width: 100%;
-    max-width: 1000px;
+    max-width: 62.5em;
     margin: auto;
     /*border: 1px solid darkblue;*/
     
@@ -225,9 +227,9 @@ header{
 
 .prestaciones-cards h2{
     text-align: center;
-    margin-bottom: 60px;
-    padding-top: 100px;
-    font-size: 30px;
+    margin-bottom: 3.75rem;
+    padding-top: 6.25rem;
+    font-size: 1.875em;
     letter-spacing: 3px;
     color: rgb(93, 89, 89);
 }
@@ -240,14 +242,14 @@ header{
 }
 
 .card-item{
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
     margin: auto;
     /*padding: 20px;*/
     border: 2px solid #f58db6;
     border-radius: 10px;
     text-align: center;
-    margin-top: 100px; /*para q no choquen entre sí cuando haga el responsive design*/
+    margin-top: 6.25rem; /*para q no choquen entre sí cuando haga el responsive design*/
     overflow: hidden;
     box-shadow: 0px 5px 10px #FF577F;
 }
@@ -260,22 +262,22 @@ header{
 .card-item h3{
     margin-top: 6px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.25em;
     letter-spacing: 3px;
     color: rgb(93, 89, 89);
 }
 
 .card-item p{
     width: 100%;
-    height: 160px;
+    height: 10rem;
     line-height: 1.3;
-    margin-top: 10px;
-    font-size: 17px;
+    margin-top: 0.625em;
+    font-size: 1.0625em;
     letter-spacing: 0.7px;
     color: rgb(104, 102, 102);
     border-radius: 0px 0px 10px 10px;
     overflow: hidden;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 
@@ -287,22 +289,32 @@ header{
     background-image: radial-gradient(#9458e1 20%, #fff);
     /*background-color: #9458e1;*/
     height: 100%;
-    margin-top: 200px;
-    padding-bottom: 40px;
+    margin-top: 12.5em;
+    padding-bottom: 2.5em;
+}
+
+.seccion-form h2{
+    text-align: center;
+    color: #fff;
+    font-size: 1.875em;
+    margin-bottom: 3.75rem;
+    padding-top: 6.25rem;
+    letter-spacing: 3px;
+    
 }
 
 .cont-form-total{
     width: 45%;
     border: 2px solid #FF577F;
-    border-top: 12px double #FF577F;
+    border-top: 0.75em double #FF577F;
     background-color: #f9d7e5;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 1.875em;
     overflow: hidden;
-    padding: 18px 20px;
+    padding: 1.125em 1.25em;
     display: block;
     border-radius: 7px;
-    box-shadow: 0px 6px 11px #7537c6;
+    box-shadow: 0px 6px 0.6875em #7537c6;
 }
 
 .img-form{
@@ -310,7 +322,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;   
+    margin-bottom: 1.875em;   
 }
 
 .img-form img{
@@ -320,21 +332,12 @@ header{
 }
 
 
-.seccion-form h2{
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-    margin-bottom: 60px;
-    padding-top: 100px;
-    letter-spacing: 3px;
-    
-}
 
 .main-input{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     padding: 7px;
-    font-size: 17px;
+    font-size: 1.0625em;
     border: none;
     border-radius: 7px;
 }
@@ -348,7 +351,7 @@ header{
 .main-form .main-send{
     background: #FF577F;
     color: #fff;
-    padding: 15px;
+    padding: 0.9375em;
     cursor: pointer;
 }
 
@@ -370,21 +373,21 @@ header{
 
 .contenedor-total-sabado{
     width: 100%;
-    max-width: 1000px;
+    max-width: 62.5em;
     margin: auto;
 }
 
 .gimnasia-sabado h2{
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 60px;
-    padding-top: 100px;
+    font-size: 1.875em;
+    margin-bottom: 3.75rem;
+    padding-top: 6.25rem;
     letter-spacing: 3px;
     color: rgb(93, 89, 89);
 }
 
 .contenedor-card-sabados p{
-    font-size: 19px;
+    font-size: 1.1875em;
     color: rgb(93, 89, 89);
     font-weight: 300;
     letter-spacing: 1px;
@@ -395,54 +398,58 @@ header{
 .contenedor-card-sabados .img1-sabado{
  width: 15%; 
  float: left;
- margin-right: 21px;
- margin-bottom: 21px;
- margin-top: 21px;
+ margin-right: 1.3125rem;
+ margin-bottom: 1.3125rem;
+ margin-top: 1.3125rem;
 }
 
 .contenedor-card-sabados .img2-sabado{
  width: 15%; 
  float: right;
- margin-left: 21px;
- margin-bottom: 21px;
- margin-top: 21px;
+ margin-left: 1.3125rem;
+ margin-bottom: 1.3125rem;
+ margin-top: 1.3125rem;
 }
 
 /*------------------------------------------------------Ubicación---------------------------------*/
 
 .seccion-ubicacion{
-    padding-top: 70px;
+    margin: auto;
+    padding-top: 4.375em;
     width: 100%;
     height: 100vh;
-    margin-bottom: 700px; /*cómo mantengo el footer siempre abajo. Puse este margen pero tengo q reveer!*/
+    margin-bottom: 43.75em; /*cómo mantengo el footer siempre abajo. Puse este margen pero tengo q reveer!*/
 }
 
 .seccion-ubicacion h2{
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 60px;
-    padding-top: 100px;
+    font-size: 1.875em;
+    margin-bottom: 3.75rem;
+    padding-top: 6.25rem;
     letter-spacing: 3px;
     color: rgb(93, 89, 89);
 }
 
 .contenedor-ubicacion{
     width: 90%;
+    max-width: 75em;
     background-image: linear-gradient(#fff, #f9d7e5);
     margin: auto; 
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contenedor-texto-plano img{
     width: 20%;
     float: left;
-    margin-right: 21px;
-    margin-bottom: 21px;
-    margin-top: 21px;
+    margin-right: 1.3125em;
+    margin-bottom: 1.3125em;
+    margin-top: 1.3125em;
     
 }
 
 .contenedor-texto-plano p{
-    font-size: 19px;
+    font-size: 1.1875em;
     color: rgb(93, 89, 89);
     font-weight: 300;
     letter-spacing: 1px;
@@ -451,40 +458,41 @@ header{
 
 .contenedor-plano iframe{
     border: 5px solid#f9d7e5;
-    width: 600px; 
-    height: 450px;
-    margin-left: 25%;
-    margin-top: 60px;
+    width: 37.5em; 
+    height: 28.125em;
+    /*margin-left: 25%;*/
+    margin-top: 3.75em;
     box-shadow: 0px 6px 11px #FF577F;
-    
+        
 }
 
 /*...........................................Footer.........................................*/
 
 footer{
     width: 100%;
+    max-width: 75em;
     background-image: linear-gradient(#fff, #9458e1, #2c124f 49%);
-    padding: 50px 0px 15px 0px;
+    padding: 3.125em 0px 0.9375em 0px;
    /* border: 2px dashed blue;*/
-   /* margin-top: auto; /**para posicionar el footer abajo, junto lo que puse en la etiqueta body*/
+   margin-top: auto; /**para posicionar el footer abajo, junto lo que puse en la etiqueta body*/
    
 }
 
 footer .pie-footer{
     width: 100%;
-    max-width: 1200px;
+    /*max-width: 75em;*/
     margin: auto;
     color: #fff;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    padding: 30px 0px;
+    grid-gap: 1.875em;
+    padding: 1.875em 0px;
 }
 
 
 footer .pie-footer .caja h3{
-    margin: 20px 0px 35px 0px;
-    font-size: 20px;
+    margin: 1.25rem 0px 2.1875rem 0px;
+    font-size: 1.25em;
     font-weight: 600;
     text-align: center;
 }
@@ -507,7 +515,7 @@ footer .pie-footer .caja figure{
 
 
 footer .pie-footer .caja figure img{
-    width: 250px;
+    max-width: 15.625em;
   /*  border: 1px solid red;*/
    
  }
@@ -515,8 +523,8 @@ footer .pie-footer .caja figure img{
 
  footer .pie-footer .caja p{
     color: #fff;
-    margin-bottom: 25px;
-    font-size: 15px;
+    margin-bottom: 1.5625rem;
+    font-size: 0.9375em;
     letter-spacing: 0.8px;
     
 }
@@ -524,15 +532,15 @@ footer .pie-footer .caja figure img{
 
 footer .pie-footer .caja a{
     display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 2.8125rem;
+    height: 2.8125rem;
+    line-height: 2.8125rem;
     color: #fff;
-    margin-left: 35px;
-    margin-top: 40px;
+    margin-left: 2.1875rem;
+    margin-top: 2.5rem;
     background: #7537c6;
-    border-radius: 10px;
-    font-size: 30px;
+    border-radius: 0.625rem;
+    font-size: 1.875em;
     text-align: center;
     transition: all 300ms ease;
     
@@ -548,6 +556,6 @@ footer .derecho-autor{
     color: #fff;
     padding: 15px 10px;
     text-align: right;
-    margin-right: 50px;
+    margin-right: 3.125em;
     font-family: 'Nothing You Could Do', cursive;
 }
