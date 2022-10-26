@@ -12,11 +12,12 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
-/*Lo del body es para que el footer me quede posicionado en la parte inferior*/
+/*Lo del body min-height es para que el footer me quede posicionado en la parte inferior*/
 
 
 
@@ -88,8 +89,20 @@ body{
 
 
 
-/*------------------------------------------------Header-----------------------------*/
+/*-----------------------Pongo un contenedor div total para hacer responsive design-----------------------------*/
 
+.contenedor-responsive-total{
+    border: 1px solid blue;
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+
+/*------------------------------------------------Header------------------------------------------*/
 header{
     width: 100%;
     max-width: 75em;
@@ -214,6 +227,7 @@ header{
 
 .contenedor-cover .contenedor-img img{
     max-width: 46.875em;
+   /* height: auto;*/
 }
 
 /*-------------------SECCIÓN CARDS-----------------------------------------------------------*/
@@ -304,7 +318,8 @@ header{
 }
 
 .cont-form-total{
-    width: 45%;
+    width: 31.25rem;
+    max-width: 37.5rem;
     border: 2px solid #FF577F;
     border-top: 0.75em double #FF577F;
     background-color: #f9d7e5;
@@ -460,10 +475,10 @@ header{
     border: 5px solid#f9d7e5;
     width: 37.5em; 
     height: 28.125em;
-    /*margin-left: 25%;*/
+    margin-left: 25%;
     margin-top: 3.75em;
     box-shadow: 0px 6px 11px #FF577F;
-        
+      
 }
 
 /*...........................................Footer.........................................*/
@@ -475,8 +490,15 @@ footer{
     padding: 3.125em 0px 0.9375em 0px;
    /* border: 2px dashed blue;*/
    margin-top: auto; /**para posicionar el footer abajo, junto lo que puse en la etiqueta body*/
+    position: absolute;
+   /*position:fixed;*/
+   /*left:0px;*/
+   bottom:0px;
+   /*height:100px;*/
+   /*overflow: hidden;*/
    
 }
+
 
 footer .pie-footer{
     width: 100%;
@@ -497,19 +519,15 @@ footer .pie-footer .caja h3{
     text-align: center;
 }
 
-/*
-footer .pie-footer .caja{
-    border: 2px solid greenyellow;
-}
-*/
 
 footer .pie-footer .caja figure{
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
-   /* border: 1px solid yellow;*/
+    border: 1px solid yellow;
     justify-content: center;
     align-items: center;
+   
 }
 
 
@@ -517,7 +535,7 @@ footer .pie-footer .caja figure{
 footer .pie-footer .caja figure img{
     max-width: 15.625em;
   /*  border: 1px solid red;*/
-   
+   /*height: auto;*/
  }
 
 

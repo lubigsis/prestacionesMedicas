@@ -1,0 +1,39 @@
+/*@media (max-width: 1200px){
+
+}  */
+
+@media (max-width: 992px){
+
+    .contenedor-cover .cover{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contenedor-cover .contenedor-img img{
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+
+    .contenedor-cover .texto{
+        width: 50%;
+        margin-top: 10px;
+        margin: auto;
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+}
+
+
+@media (max-width: 576px){
+
+}
+
+
