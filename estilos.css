@@ -166,7 +166,11 @@ header{
     color: #e4f5a9;
     transition: all 800ms ease;
 }
+ /*---Oculto el icono del avatar xq al ponerlo en el responsive design, me aparece tmb en la pantalla completa*/
 
+  .menu nav img{
+    display: none;
+}
 
 /*---------------------------------------------------PORTADA--------------------------------*/
 .contenedor-cover{
@@ -184,15 +188,18 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   /* border: 2px solid yellow;*/
-    
+    border: 2px solid yellow;
+    padding: 30px;
+     
 }
 
 .contenedor-cover .texto{
     max-width: 43.75em;
     margin-top: 10px;
     margin-left: 4.375em;
-    /*border: 1px solid blue;*/
+    border: 1px solid darkred;
+    width: 40%;
+    text-align: center;
 }
 
 .contenedor-cover .texto p{
@@ -225,9 +232,17 @@ header{
     box-shadow: 1px 1px 30px -6px #f4063e;
 }
 
+.contenedor-cover .contenedor-img{
+    border: 1px solid black;
+    width: 60%;
+}
+
 .contenedor-cover .contenedor-img img{
+    width: 100%;
     max-width: 46.875em;
    /* height: auto;*/
+   border: 1px dashed red;
+   
 }
 
 /*-------------------SECCIÓN CARDS-----------------------------------------------------------*/

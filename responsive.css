@@ -1,38 +1,163 @@
-/*@media (max-width: 1200px){
 
-}  */
+/*-------------------------------------------------------------------------------------1200-----------------*/
 
-@media (max-width: 992px){
+@media screen and (max-width: 1200px){
 
-    .contenedor-cover .cover{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: space-between;
+    header{
+        padding: 30px;
     }
 
-    .contenedor-cover .contenedor-img img{
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 20%;
+   
+}  
+
+/*-------------------------------------------------------------------------------------992-----------------*/
+
+@media screen and (max-width: 992px){
+
+    .contenedor-cover .cover{
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
     }
 
     .contenedor-cover .texto{
-        width: 50%;
-        margin-top: 10px;
-        margin: auto;
+        width: 72%;
         font-size: 12px;
+    }
+
+    header .contenedor-menu .logo h1{
+        font-size: 24px;
+                    
     }
 
 }
 
+/*-------------------------------------------------------------------------------------768-----------------*/
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
+
+
+    header{
+        padding: 2px;
+    }
+
+    .social-body ul li a{
+        padding: 1px 6px;
+        font-size: 26px;
+       
+    }
+
+    .social-body ul li .fa-envelope{
+        font-size: 24px;
+    }
+
+
+    .contenedor-cover .cover .texto{
+        width: 60%;
+        font-size: 11px;   
+        margin-right: 40%;
+       
+    }
+
+    
+    
+    .contenedor-cover .cover .contenedor-img {
+        width: 60%;
+        margin-right: 30%;
+    }
+    
+    .contenedor-cover .texto input{
+        padding: 10px 15px;
+        font-size: 15px;
+             
+    }
+
+
+    /*------------------navegación--------------------------*/
+
+    .contenedor-menu .menu nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: rgb(246, 246, 194);
+        width: 250px;
+        height: 100vh;
+        padding: 40px;
+    }
+
+    .menu nav ul{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .menu nav ul li{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .menu nav ul li a{
+        color: #9458e1; 
+    }
+
+    .menu nav img{
+        width: 60px;
+        display: block; /*p/mostrar el avatar q bloqueé antes*/
+    }
 
 }
 
+/*-------------------------------------------------------------------------------------576-----------------*/
 
-@media (max-width: 576px){
+@media screen and (max-width: 576px){
+
+
+    header .contenedor-menu .logo h1{
+        font-size: 16px;
+        margin-left: 15px;           
+    }
+
+    .contenedor-cover .cover{
+        padding: 0px;
+    }
+
+    .contenedor-cover .cover .contenedor-img {
+        width: 50%;
+        margin-right: 38%;
+        margin-top: -40px;
+    }
+
+    .contenedor-cover .cover .texto{
+        width: 50%;
+        font-size: 10px;   
+        margin-right: 46%;
+        margin-top: 28px;
+    }
+    
+    .contenedor-cover .texto input{
+        padding: 7px 13px;
+        font-size: 13px;
+        margin: 10px 15px;    
+    }
+
+    header{
+        padding: 1px;
+    }
+
+    header .contenedor-menu .logo img{
+        width: 47px;
+        padding-left: 3px;
+        margin-left: 2px;
+    }
+
+    
+
+    header .contenedor-menu .logo h1{
+        font-size: 17px;
+        margin-left: 15px;           
+    }
 
 }
 
