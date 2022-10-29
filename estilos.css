@@ -120,6 +120,8 @@ header{
     justify-content: space-between;
 }
 
+
+
 .logo{
     height: 100%;
     display: flex;
@@ -169,6 +171,10 @@ header{
  /*---Oculto el icono del avatar xq al ponerlo en el responsive design, me aparece tmb en la pantalla completa*/
 
   .menu nav img{
+    display: none;
+}
+
+#btn-menu{
     display: none;
 }
 
@@ -256,8 +262,8 @@ header{
 
 .prestaciones-cards h2{
     text-align: center;
-    margin-bottom: 3.75rem;
-    padding-top: 6.25rem;
+    margin-bottom: 15px;
+    padding-top: 50px;
     font-size: 1.875em;
     letter-spacing: 3px;
     color: rgb(93, 89, 89);
@@ -447,8 +453,9 @@ header{
     margin: auto;
     padding-top: 4.375em;
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin-bottom: 43.75em; /*cómo mantengo el footer siempre abajo. Puse este margen pero tengo q reveer!*/
+    border: 3px dashed black;
 }
 
 .seccion-ubicacion h2{
@@ -460,16 +467,22 @@ header{
     color: rgb(93, 89, 89);
 }
 
-.contenedor-ubicacion{
+.seccion-ubicacion .contenedor-ubicacion{
     width: 90%;
     max-width: 75em;
     background-image: linear-gradient(#fff, #f9d7e5);
     margin: auto; 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.contenedor-texto-plano img{
+
+.seccion-ubicacion .contenedor-ubicacion .divisiones-ubicacion{
+    border: 4px solid rgb(251, 7, 178);
+}
+
+.divisiones-ubicacion .contenedor-texto-plano img{
     width: 20%;
     float: left;
     margin-right: 1.3125em;
@@ -478,12 +491,14 @@ header{
     
 }
 
-.contenedor-texto-plano p{
+.divisiones-ubicacion .contenedor-texto-plano p{
     font-size: 1.1875em;
     color: rgb(93, 89, 89);
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 2;
+    border: 2px dashed blue;
+    padding: 20px;
 }
 
 .contenedor-plano iframe{
@@ -491,7 +506,8 @@ header{
     width: 37.5em; 
     height: 28.125em;
     margin-left: 25%;
-    margin-top: 3.75em;
+    margin-top: 15px;
+    margin-bottom: 30px;
     box-shadow: 0px 6px 11px #FF577F;
       
 }
@@ -502,15 +518,11 @@ footer{
     width: 100%;
     max-width: 75em;
     background-image: linear-gradient(#fff, #9458e1, #2c124f 49%);
-    padding: 3.125em 0px 0.9375em 0px;
-   /* border: 2px dashed blue;*/
-   margin-top: auto; /**para posicionar el footer abajo, junto lo que puse en la etiqueta body*/
+    padding: 3.125em 2px 0.9375em 40px;
+    border: 2px dashed rgb(14, 239, 29);
+    margin-top: auto; /**para posicionar el footer abajo, junto lo que puse en la etiqueta body*/
     position: absolute;
-   /*position:fixed;*/
-   /*left:0px;*/
-   bottom:0px;
-   /*height:100px;*/
-   /*overflow: hidden;*/
+    bottom:0px;
    
 }
 
@@ -536,10 +548,11 @@ footer .pie-footer .caja h3{
 
 
 footer .pie-footer .caja figure{
-    width: 50%;
+    width: 55%;
     height: 100%;
+    margin-left: 100px;
     display: flex;
-    border: 1px solid yellow;
+    border: 2px solid yellow;
     justify-content: center;
     align-items: center;
    
@@ -549,6 +562,7 @@ footer .pie-footer .caja figure{
 
 footer .pie-footer .caja figure img{
     max-width: 15.625em;
+    width: 100%;
   /*  border: 1px solid red;*/
    /*height: auto;*/
  }
@@ -591,4 +605,10 @@ footer .derecho-autor{
     text-align: right;
     margin-right: 3.125em;
     font-family: 'Nothing You Could Do', cursive;
+    text-align: right;
+}
+
+footer .derecho-autor small{
+    display: block;
+    font-size: 17px;
 }

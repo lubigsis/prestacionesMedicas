@@ -33,6 +33,10 @@
                     
     }
 
+    /*.........................................*/
+
+    
+
 }
 
 /*-------------------------------------------------------------------------------------768-----------------*/
@@ -81,11 +85,12 @@
     .contenedor-menu .menu nav{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -250px; /*p/ocultar el menú*/
         background: rgb(246, 246, 194);
         width: 250px;
         height: 100vh;
         padding: 40px;
+        z-index: 1; /*p/q siempre quede arriba del main*/
     }
 
     .menu nav ul{
@@ -105,6 +110,33 @@
     .menu nav img{
         width: 60px;
         display: block; /*p/mostrar el avatar q bloqueé antes*/
+    }
+
+    .back-menu-responsive{
+        position: fixed; /*p/q esté por encima de todo excepto el desplegable amarillo*/
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        display: none; /*oculto la 'máscara' oscura del main*/
+    }
+
+    #btn-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.1);
+        font-size: 24px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 300ms;
+    }
+
+    #btn-menu:hover{
+        background: rgba(255, 255, 255, 0.2);
     }
 
 }
