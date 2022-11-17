@@ -47,7 +47,7 @@ body{
 
 .social-body ul li a .fa-square-facebook:hover{
     color: #1d2b48;
-    font-size: 2.4375em;
+   /* font-size: 2.4375em;*/
     transition: all ease 9ms;
 }
 
@@ -58,7 +58,7 @@ body{
 
 .social-body ul li .fa-square-instagram:hover{
     color: #77172d;
-    font-size: 2.4375em;
+  /*  font-size: 2.4375em;*/
     transition: all ease 9ms;
 }
 
@@ -70,7 +70,7 @@ body{
 
 .social-body ul li .fa-linkedin:hover{
     color: #08354a;
-    font-size: 2.4375em;
+   /* font-size: 2.4375em;*/
     transition: all ease 9ms;
 }
 
@@ -83,7 +83,7 @@ body{
 
 .social-body ul li .fa-envelope:hover{
     color: #791a0f;
-    font-size: 2.125em;
+  /*  font-size: 2.125em;*/
     transition: all ease 9ms;
 }
 
@@ -92,7 +92,7 @@ body{
 /*-----------------------Pongo un contenedor div total para hacer responsive design-----------------------------*/
 
 .contenedor-responsive-total{
-    border: 1px solid blue;
+  /*  border: 1px solid blue;*/
     width: 98%;
     max-width: 1200px;
     margin: 0 auto;
@@ -194,7 +194,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid yellow;
+   /* border: 2px solid yellow;*/
     padding: 30px;
      
 }
@@ -203,7 +203,7 @@ header{
     max-width: 43.75em;
     margin-top: 10px;
     margin-left: 4.375em;
-    border: 1px solid darkred;
+ /*   border: 1px solid darkred;*/
     width: 40%;
     text-align: center;
 }
@@ -239,7 +239,7 @@ header{
 }
 
 .contenedor-cover .contenedor-img{
-    border: 1px solid black;
+  /*  border: 1px solid black;*/
     width: 60%;
 }
 
@@ -247,7 +247,7 @@ header{
     width: 100%;
     max-width: 46.875em;
    /* height: auto;*/
-   border: 1px dashed red;
+/*   border: 1px dashed red;*/
    
 }
 
@@ -281,7 +281,7 @@ header{
     height: 25rem;
     margin: auto;
     /*padding: 20px;*/
-    border: 2px solid #f58db6;
+  /*  border: 2px solid #f58db6;*/
     border-radius: 10px;
     text-align: center;
     margin-top: 6.25rem; /*para q no choquen entre sí cuando haga el responsive design*/
@@ -341,7 +341,7 @@ header{
 .cont-form-total{
     width: 31.25rem;
     max-width: 37.5rem;
-    border: 2px solid #FF577F;
+   /* border: 2px solid #FF577F;*/
     border-top: 0.75em double #FF577F;
     background-color: #f9d7e5;
     margin: auto;
@@ -455,7 +455,7 @@ header{
     width: 100%;
     height: auto;
     margin-bottom: 43.75em; /*cómo mantengo el footer siempre abajo. Puse este margen pero tengo q reveer!*/
-    border: 3px dashed black;
+  /*  border: 3px dashed black;*/
 }
 
 .seccion-ubicacion h2{
@@ -479,7 +479,7 @@ header{
 
 
 .seccion-ubicacion .contenedor-ubicacion .divisiones-ubicacion{
-    border: 4px solid rgb(251, 7, 178);
+   /* border: 4px solid rgb(251, 7, 178);*/
 }
 
 .divisiones-ubicacion .contenedor-texto-plano img{
@@ -497,7 +497,7 @@ header{
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 2;
-    border: 2px dashed blue;
+   /* border: 2px dashed blue;*/
     padding: 20px;
 }
 
@@ -519,7 +519,7 @@ footer{
     max-width: 75em;
     background-image: linear-gradient(#fff, #9458e1, #2c124f 49%);
     padding: 3.125em 2px 0.9375em 40px;
-    border: 2px dashed rgb(14, 239, 29);
+  /*  border: 2px dashed rgb(14, 239, 29);*/
     margin-top: auto; /**para posicionar el footer abajo, junto lo que puse en la etiqueta body*/
     position: absolute;
     bottom:0px;
@@ -552,7 +552,7 @@ footer .pie-footer .caja figure{
     height: 100%;
     margin-left: 100px;
     display: flex;
-    border: 2px solid yellow;
+   /* border: 2px solid yellow;*/
     justify-content: center;
     align-items: center;
    
